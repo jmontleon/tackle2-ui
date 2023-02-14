@@ -22,7 +22,7 @@ jobs:
         architectures: "amd64, arm64, ppc64le, s390x"
         containerfile: "./Dockerfile"
         image_name: "tackle2-ui"
-        image_namespace: "konveyor"
+        image_namespace: "jmontleon"
         image_registry: "quay.io"
         quay_publish_robot: ${{ secrets.QUAY_PUBLISH_ROBOT }}
         quay_publish_token: ${{ secrets.QUAY_PUBLISH_TOKEN }}
